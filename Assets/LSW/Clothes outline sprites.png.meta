@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: aece933a6759bf44f9c7050b7b81a8c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7482667652216324306
+    second: Square
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 4, y: 4, z: 4, w: 4}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Square_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f764878aa34124b9db08b0802bf7a9
+      internalID: 973059515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 219.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095dd5435dc5aeb49942d8aa248d3dbd
+      internalID: -829342534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 219.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.599998, y: -18.28572}
+        - {x: -10.966782, y: 18.285706}
+        - {x: 11.210243, y: 18.285706}
+        - {x: 25.599998, y: -18.28572}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1155cabf4d6bf164b8bade1ed03b89ce
+      internalID: -709475093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 219.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582895e236458764a8a007684199c9de
+      internalID: -914909852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 219.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a15a794ef1bf641bb61461e146e3fa
+      internalID: -852721900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c11870cf6b6fa4ab3f1abe235e5746
+      internalID: 2097315116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 183.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb3cc06f0fabe42a4b7acfe12c9a07
+      internalID: -2123134427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 183.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.525085, y: -18.28572}
+        - {x: -25.599998, y: 5.630768}
+        - {x: -11.448891, y: -5.819763}
+        - {x: 11.210243, y: -4.85553}
+        - {x: 25.599998, y: 5.482849}
+        - {x: 10.728127, y: -18.28572}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426cb1d089a7c045996b710b0453193
+      internalID: 697256285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 183.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1e0f782591bcb4dbf8e4a097d305d7
+      internalID: -474355201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 183.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026c57b7af359a64a87b708ca8699c23
+      internalID: 1629914034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83a02fbb32f72418f13d761a57ff62
+      internalID: -1445964568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleeves
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 147.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.599998, y: -18.28572}
+        - {x: 3.3929138, y: 18.285706}
+        - {x: 25.599998, y: 18.285706}
+        - {x: -1.4281769, y: -18.28572}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc9875026a38846863c15ed099c3de
+      internalID: 1480770842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scarf
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 147.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.599998, y: 1.1986694}
+        - {x: 18.587303, y: -18.28572}
+        - {x: -20.092072, y: -18.28572}
+        - {x: -25.599998, y: 0.16937256}
+        - {x: -20.60897, y: 18.285706}
+        - {x: -14.341545, y: 2.5799255}
+        - {x: 10.693748, y: 2.4549103}
+        - {x: 25.599998, y: 18.285706}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939bba4746bb07c4981f5ba2cde94754
+      internalID: 383038184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleeves 2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 147.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.7031403, y: -18.28572}
+        - {x: -25.600006, y: 18.285706}
+        - {x: -3.1494598, y: 18.285706}
+        - {x: 25.59999, y: -18.28572}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3113654cb5e6c45883aad1a21530b0
+      internalID: 993169434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 147.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d976f34b27f32a441abcd1bac026a75f
+      internalID: -255849254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e59e3b726975e04995ba195bbb4d801
+      internalID: 1861382109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloves
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.799965, y: -3.23143}
+        - {x: -12.439163, y: -18.28572}
+        - {x: -10.483498, y: -3.8224487}
+        - {x: -18.302002, y: -12.764702}
+        - {x: -8.659821, y: 18.285706}
+        - {x: 5.803459, y: 18.285706}
+        - {x: 25.35775, y: -1.707489}
+        - {x: 12.913101, y: 0.20663452}
+        - {x: 9.812454, y: -18.28572}
+        - {x: 5.3390274, y: -1.567276}
+        - {x: 1.4644775, y: -18.28572}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08f67f2909855f47815acfad67ea4e2
+      internalID: 2045323480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shirt
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 111.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.90873, y: -18.28572}
+        - {x: -20.266632, y: -18.28572}
+        - {x: -25.599998, y: 2.903839}
+        - {x: -20.126862, y: 18.285706}
+        - {x: 20.85244, y: 18.285706}
+        - {x: 25.599998, y: 1.4575043}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3646155e0ea0c4387836bd08ea6339
+      internalID: -392607037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 111.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3b60d3d6d987c48aa2fd918e727027
+      internalID: 1431184946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 111.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ca29cc1bcab34d860210055645ef8
+      internalID: 1110436833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe34881e0c10154b9cadcff00a4f7df
+      internalID: 1486855450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 75.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0cc12cfdf53747afe8434c2537a82
+      internalID: 647677605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 75.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.07094574, y: -18.285713}
+        - {x: -1.9083023, y: -3.9294052}
+        - {x: -5.49424, y: -18.285713}
+        - {x: -25.599998, y: -18.285713}
+        - {x: -20.126862, y: 18.285713}
+        - {x: 17.95977, y: 18.285713}
+        - {x: 25.599998, y: -18.285713}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad3384c502443146acebcdffa644df4
+      internalID: 97363606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 75.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa70a7bff3cffe84abfcf8e60bcda177
+      internalID: 882537902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 75.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6278afef3076266499d99370e22988e5
+      internalID: 1500217086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948168bf5f37e4d4fac5614c71192d84
+      internalID: 973141556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 39.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35598762ff34abc4e8e3f9b6cf507c4e
+      internalID: -621563886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socks
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 39.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.162643, y: -17.803608}
+        - {x: -18.680534, y: 18.285713}
+        - {x: -4.2172546, y: 18.285713}
+        - {x: -3.735138, y: -18.285717}
+      - - {x: 3.9785995, y: -18.285717}
+        - {x: 4.4607162, y: 18.285713}
+        - {x: 20.852425, y: 18.285713}
+        - {x: 21.816643, y: -18.285717}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108598009f06bfa4186cb340d13027fd
+      internalID: 1450131900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 39.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fade80e68c37b409bde45b42f03dea
+      internalID: 40018306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_29
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39.42857
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dec5c8a210a6f40a0f0ce3c10fbebd
+      internalID: 1256527156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.4285698
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b57577c8c235d9418afa64765d34613
+      internalID: 1999702099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3.4285698
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd54bf36ae73048a284d16a97cd22d
+      internalID: 2003482358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3.4285698
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.599998, y: -18.285715}
+        - {x: -18.198425, y: 1.4650421}
+        - {x: -5.663582, y: 1.4650421}
+        - {x: -5.663574, y: -17.819328}
+      - - {x: 3.496498, y: -18.285715}
+        - {x: 2.53228, y: 1.4650421}
+        - {x: 16.995552, y: 1.4650421}
+        - {x: 25.599998, y: -18.285715}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344f4327798de144f8071e5ed25daf89
+      internalID: -1676709730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3.4285698
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb114229b418549a2226d8379ffb69
+      internalID: 670682704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3.4285698
+        width: 51.2
+        height: 36.57143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97431f810eeec9e4198c1e26ad8841fb
+      internalID: -1614809206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape:
+    - - {x: -128, y: 128}
+      - {x: -128, y: -128}
+      - {x: 128, y: -128}
+      - {x: 128, y: 128}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Square_19: 1110436833
+      sleeves: 1480770842
+      Square_10: -1445964568
+      scarf: 383038184
+      gloves: 2045323480
+      Square_5: 2097315116
+      Square_20: 1486855450
+      sleeves 2: 993169434
+      Square_23: 882537902
+      Square_28: 40018306
+      Square_21: 647677605
+      Square_30: 1999702099
+      Square_0: 973059515
+      Square_29: 1256527156
+      Square_14: -255849254
+      Square_34: -1614809206
+      Square_31: 2003482358
+      Square_26: -621563886
+      Square_1: -829342534
+      Square_6: -2123134427
+      Square_8: -474355201
+      Square_33: 670682704
+      shoes: -1676709730
+      Square_9: 1629914034
+      pants: 97363606
+      Square_24: 1500217086
+      socks: 1450131900
+      hat: -709475093
+      Square_18: 1431184946
+      shirt: -392607037
+      Square_15: 1861382109
+      Square_25: 973141556
+      mask: 697256285
+      Square_3: -914909852
+      Square_4: -852721900
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.0b9 (162b5e238388) revision 1452894'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1055; Version 2009; 64bit' Language: 'unknown' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2021.2.0b9\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56910
+Successfully changed project path to: I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop
+I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 102.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0b9 (162b5e238388)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002955 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007124 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1512ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1278ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (431ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5221 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.7 MB). Loaded Objects now: 5666.
+Memory consumption went from 207.6 MB to 206.9 MB.
+Total: 3.807900 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.317100 ms MarkObjects: 2.863100 ms  DeleteObjects: 0.238600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19680.262617 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fcef7111ff632d827172aebbdbdce0') in 0.205832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.102425 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c05fd406e968743bf9a76d9d9949101') in 0.030085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.283268 seconds.
+  path: Assets/LSW/Wall.png
+  artifactKey: Guid(2956d491296f88948b9e7e40a947fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Wall.png using Guid(2956d491296f88948b9e7e40a947fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83c7dde52d4074a3d7d39b72cab1e58') in 0.063836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.814179 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae158f93a5d326103d9813589e2c0f7') in 0.037832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LSW/Wall.asset
+  artifactKey: Guid(6572835d51305d74b9feb4acbcde86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Wall.asset using Guid(6572835d51305d74b9feb4acbcde86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f3d6957f59e5dc74360ba2c669cb77') in 0.039251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.418726 seconds.
+  path: Assets/LSW/gloves.asset
+  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8856a06f5fe22fc8b44a42f7be164791') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a73b55ac14450af3e25ad377dbc64') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.632209 seconds.
+  path: Assets/LSW/hat.asset
+  artifactKey: Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/hat.asset using Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe86a01b0282bd8eaad09bc68dd6cf7') in 0.012387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb321b193d82edd8ee458841195a19') in 0.035271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.286451 seconds.
+  path: Assets/LSW/mask.asset
+  artifactKey: Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/mask.asset using Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0eaebac54e346f03e38b6b44bf6d41') in 0.009905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ffdb78db6634d598a9090c2e781520') in 0.017519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.240195 seconds.
+  path: Assets/LSW/pants.asset
+  artifactKey: Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/pants.asset using Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469033852388fb4b0981f06d19a52c87') in 0.011189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26503b2a3517b596caef4deeaf13d55c') in 0.034215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.737956 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714bb47442d9ca01fba37b0004f116b4') in 0.031889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LSW/scarf.asset
+  artifactKey: Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/scarf.asset using Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2effc807d4a38551cd3c694942b289fa') in 0.010153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.350518 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c21245614e519dd11628d37b5cf0e7') in 0.020770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LSW/shirt.asset
+  artifactKey: Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shirt.asset using Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4118c962274fd718d1dee8065fd12da') in 0.009083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.328501 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557d7ec1979847b57b0731a9ab492d8') in 0.030843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LSW/sleeves.asset
+  artifactKey: Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves.asset using Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c5a55affa7e2abdc7a52bf6d6bdd28') in 0.009695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.283804 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43166438323e92d7f957da447c79775b') in 0.037428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LSW/sleeves 2.asset
+  artifactKey: Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves 2.asset using Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6843bea2edfa9898c956392a9c05d4') in 0.010064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.625888 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9a2ac56f0cd5571209fb132117fdcc') in 0.031724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LSW/socks.asset
+  artifactKey: Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/socks.asset using Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234dfc27ca0de4933625d1f2a942dd6') in 0.008600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.967269 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1cc06ef9397154d857fa84a81eef4b') in 0.027712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.755699 seconds.
+  path: Assets/LSW/Rectangular Palette.prefab
+  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1fbacb7bf15cc1be673660a8cdded3') in 0.034803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LSW/shoes.asset
+  artifactKey: Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3724f6804b4cb10d4a2ea23140137c3c') in 0.008703 seconds 
