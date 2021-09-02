@@ -15,7 +15,7 @@ I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW 
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56910
+50971
 Successfully changed project path to: I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop
 I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW clothes shop/LSW-clothes-shop
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ I:/bjonreyes github/Djordje Stanisavljevic's LSW programming interview task/LSW 
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 112.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0b9 (162b5e238388)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/Resources/UnitySubsystems
@@ -63,50 +63,50 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/Editor/2021.2.0b9/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002955 seconds.
+Registered in 0.005117 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 101.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (779ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (493ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007124 seconds.
+Registered in 0.007058 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 106.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -120,29 +120,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.450 seconds
+- Completed reload, in  1.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1512ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1607ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1278ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1368ms)
 			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
+			SetupTypeCache (478ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (600ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5221 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (0.7 MB). Loaded Objects now: 5666.
-Memory consumption went from 207.6 MB to 206.9 MB.
-Total: 3.807900 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.317100 ms MarkObjects: 2.863100 ms  DeleteObjects: 0.238600 ms)
+Unloading 5249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.7 MB). Loaded Objects now: 5693.
+Memory consumption went from 209.6 MB to 209.0 MB.
+Total: 4.141300 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.411000 ms MarkObjects: 3.056100 ms  DeleteObjects: 0.257300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -170,157 +170,1311 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19680.262617 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fcef7111ff632d827172aebbdbdce0') in 0.205832 seconds 
+  Time since last request: 10068.975104 seconds.
+  path: Assets/LSW/Scenes/Clothes shop.unity
+  artifactKey: Guid(0e744a2a9c23b4b4183d26d9f534ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scenes/Clothes shop.unity using Guid(0e744a2a9c23b4b4183d26d9f534ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d42e261b120b9e5c8adac5ee84f297') in 0.020702 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007546 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1751ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1502ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 5995.
+Memory consumption went from 212.6 MB to 211.8 MB.
+Total: 3.679400 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.384600 ms MarkObjects: 2.634400 ms  DeleteObjects: 0.248600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007420 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1210ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6010.
+Memory consumption went from 212.6 MB to 211.8 MB.
+Total: 3.710600 ms (FindLiveObjects: 0.399300 ms CreateObjectMapping: 0.359900 ms MarkObjects: 2.694400 ms  DeleteObjects: 0.256100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1294ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6025.
+Memory consumption went from 212.6 MB to 211.8 MB.
+Total: 3.779900 ms (FindLiveObjects: 0.468800 ms CreateObjectMapping: 0.447500 ms MarkObjects: 2.604000 ms  DeleteObjects: 0.258400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6040.
+Memory consumption went from 212.6 MB to 211.8 MB.
+Total: 3.791400 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.360200 ms MarkObjects: 2.769400 ms  DeleteObjects: 0.255900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1234ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6055.
+Memory consumption went from 212.4 MB to 211.7 MB.
+Total: 4.494000 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.342800 ms MarkObjects: 3.447500 ms  DeleteObjects: 0.287500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.102425 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c05fd406e968743bf9a76d9d9949101') in 0.030085 seconds 
+  Time since last request: 3188.835011 seconds.
+  path: Assets/LSW/Scripts/ApplicationReferences.cs
+  artifactKey: Guid(410dcfc83fe8ac345811c72a5bfe162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/ApplicationReferences.cs using Guid(410dcfc83fe8ac345811c72a5bfe162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752c7cad21af78f03171889f03a6750f') in 0.035791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007387 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1156ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (428ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6070.
+Memory consumption went from 212.6 MB to 211.9 MB.
+Total: 4.532300 ms (FindLiveObjects: 0.470600 ms CreateObjectMapping: 0.537900 ms MarkObjects: 3.228600 ms  DeleteObjects: 0.293900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007392 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1395ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1182ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6085.
+Memory consumption went from 212.6 MB to 211.9 MB.
+Total: 3.735500 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.382200 ms MarkObjects: 2.671500 ms  DeleteObjects: 0.272400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.283268 seconds.
-  path: Assets/LSW/Wall.png
-  artifactKey: Guid(2956d491296f88948b9e7e40a947fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Wall.png using Guid(2956d491296f88948b9e7e40a947fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83c7dde52d4074a3d7d39b72cab1e58') in 0.063836 seconds 
+  Time since last request: 220.218052 seconds.
+  path: Assets/LSW/Scripts/TransactionIDToShopkeeperID.cs
+  artifactKey: Guid(27867fa638685f64eb73625f3faf73b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/TransactionIDToShopkeeperID.cs using Guid(27867fa638685f64eb73625f3faf73b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8314eb0e4fd5ea01aaccac61195f9c81') in 0.009806 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.814179 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae158f93a5d326103d9813589e2c0f7') in 0.037832 seconds 
+  Time since last request: 1.454706 seconds.
+  path: Assets/LSW/Scripts/TransactionIDToShopkeeperID1.cs
+  artifactKey: Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/TransactionIDToShopkeeperID1.cs using Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed1f7f3c62c76f512cb59c8933500c6') in 0.004999 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LSW/Wall.asset
-  artifactKey: Guid(6572835d51305d74b9feb4acbcde86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Wall.asset using Guid(6572835d51305d74b9feb4acbcde86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f3d6957f59e5dc74360ba2c669cb77') in 0.039251 seconds 
+  Time since last request: 15.657996 seconds.
+  path: Assets/LSW/Scripts/LanguageID.cs
+  artifactKey: Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/LanguageID.cs using Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81eede418fe9f5d066638e2612e9354') in 0.008085 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.418726 seconds.
-  path: Assets/LSW/gloves.asset
-  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8856a06f5fe22fc8b44a42f7be164791') in 0.012875 seconds 
+  Time since last request: 2.721047 seconds.
+  path: Assets/LSW/Scripts/LanguageID1.cs
+  artifactKey: Guid(9da102badc155e84b970277744b65caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/LanguageID1.cs using Guid(9da102badc155e84b970277744b65caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c89ab429a9cd357b066cb12a856a44') in 0.006156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a73b55ac14450af3e25ad377dbc64') in 0.018217 seconds 
+  Time since last request: 9.010767 seconds.
+  path: Assets/LSW/Scripts/LanguageName.cs
+  artifactKey: Guid(9da102badc155e84b970277744b65caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/LanguageName.cs using Guid(9da102badc155e84b970277744b65caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf3957f84624877444fa380e6aea121') in 0.005919 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.632209 seconds.
-  path: Assets/LSW/hat.asset
-  artifactKey: Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/hat.asset using Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe86a01b0282bd8eaad09bc68dd6cf7') in 0.012387 seconds 
+  Time since last request: 25.210975 seconds.
+  path: Assets/LSW/Scripts/LanguageID.cs
+  artifactKey: Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Scripts/LanguageID.cs using Guid(b579970d7ac15a143a03ec3a85b41a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2453f34cb4486f01ca67c03e9378bf4e') in 0.001671 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007373 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6102.
+Memory consumption went from 212.7 MB to 212.0 MB.
+Total: 3.791300 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.381300 ms MarkObjects: 2.711200 ms  DeleteObjects: 0.274400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6117.
+Memory consumption went from 212.7 MB to 212.0 MB.
+Total: 5.439000 ms (FindLiveObjects: 0.793500 ms CreateObjectMapping: 0.422400 ms MarkObjects: 3.935800 ms  DeleteObjects: 0.286400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007374 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1144ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6132.
+Memory consumption went from 212.6 MB to 211.8 MB.
+Total: 4.203800 ms (FindLiveObjects: 0.506600 ms CreateObjectMapping: 0.432800 ms MarkObjects: 2.956700 ms  DeleteObjects: 0.307000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1194ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6147.
+Memory consumption went from 212.8 MB to 212.0 MB.
+Total: 3.910700 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.377300 ms MarkObjects: 2.800900 ms  DeleteObjects: 0.304800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6162.
+Memory consumption went from 212.8 MB to 212.0 MB.
+Total: 4.152600 ms (FindLiveObjects: 0.518000 ms CreateObjectMapping: 0.417400 ms MarkObjects: 2.946300 ms  DeleteObjects: 0.270000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1406ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6177.
+Memory consumption went from 212.8 MB to 212.0 MB.
+Total: 3.766100 ms (FindLiveObjects: 0.424200 ms CreateObjectMapping: 0.333100 ms MarkObjects: 2.734200 ms  DeleteObjects: 0.273700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\bjonreyes github\Djordje Stanisavljevic's LSW programming interview task\LSW clothes shop\LSW-clothes-shop\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1424ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 6192.
+Memory consumption went from 212.8 MB to 212.1 MB.
+Total: 4.203500 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.451600 ms MarkObjects: 2.935400 ms  DeleteObjects: 0.299300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb321b193d82edd8ee458841195a19') in 0.035271 seconds 
+  Time since last request: 1256.196751 seconds.
+  path: Assets/LSW/Floor Rule Tile.asset
+  artifactKey: Guid(10c3aa719e5ce5b419493cda2d645a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Floor Rule Tile.asset using Guid(10c3aa719e5ce5b419493cda2d645a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a68190ff982e970dd7e987243c2160a') in 0.141853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.286451 seconds.
-  path: Assets/LSW/mask.asset
-  artifactKey: Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/mask.asset using Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0eaebac54e346f03e38b6b44bf6d41') in 0.009905 seconds 
+  Time since last request: 196.060638 seconds.
+  path: Assets/LSW/Floor Rule Tile.asset
+  artifactKey: Guid(10c3aa719e5ce5b419493cda2d645a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Floor Rule Tile.asset using Guid(10c3aa719e5ce5b419493cda2d645a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9b4bba8dfdee2df4b05ef231f7d032') in 0.008264 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ffdb78db6634d598a9090c2e781520') in 0.017519 seconds 
+  Time since last request: 268.435496 seconds.
+  path: Assets/LSW/Clothes outline sprites.png
+  artifactKey: Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Clothes outline sprites.png using Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ddbbe903034a57b9f177376a3db261') in 0.200338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.240195 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/LSW/pants.asset
   artifactKey: Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/pants.asset using Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469033852388fb4b0981f06d19a52c87') in 0.011189 seconds 
+Start importing Assets/LSW/pants.asset using Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9979516a5a15efb19fd07df75cc5c6bd') in 0.010658 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26503b2a3517b596caef4deeaf13d55c') in 0.034215 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/LSW/scarf.asset
+  artifactKey: Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/scarf.asset using Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157edb991e499d4575e043df3b1b0994') in 0.009827 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.737956 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714bb47442d9ca01fba37b0004f116b4') in 0.031889 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/LSW/socks.asset
+  artifactKey: Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/socks.asset using Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c270b316b84c7619291dd5eca11f4') in 0.011350 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/LSW/scarf.asset
-  artifactKey: Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/scarf.asset using Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2effc807d4a38551cd3c694942b289fa') in 0.010153 seconds 
+  path: Assets/LSW/hat.asset
+  artifactKey: Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/hat.asset using Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ff176095e1e3b7e95a004b458af8ad') in 0.010202 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.350518 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c21245614e519dd11628d37b5cf0e7') in 0.020770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/LSW/shirt.asset
   artifactKey: Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/shirt.asset using Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4118c962274fd718d1dee8065fd12da') in 0.009083 seconds 
+Start importing Assets/LSW/shirt.asset using Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b555767488ef1cd2e24560efcf3d50') in 0.010258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.328501 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557d7ec1979847b57b0731a9ab492d8') in 0.030843 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/LSW/gloves.asset
+  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71ad3cb9065ed8dad63b45c095d58bf') in 0.009595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LSW/sleeves.asset
-  artifactKey: Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/sleeves.asset using Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c5a55affa7e2abdc7a52bf6d6bdd28') in 0.009695 seconds 
+  Time since last request: 0.000120 seconds.
+  path: Assets/LSW/shoes.asset
+  artifactKey: Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fc348bafa6eb8ff98d62241e0a8bb5') in 0.017249 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.283804 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43166438323e92d7f957da447c79775b') in 0.037428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000021 seconds.
   path: Assets/LSW/sleeves 2.asset
   artifactKey: Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/sleeves 2.asset using Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6843bea2edfa9898c956392a9c05d4') in 0.010064 seconds 
+Start importing Assets/LSW/sleeves 2.asset using Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb153aaf8e54bda7b430a68ceb176c5') in 0.011632 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.625888 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9a2ac56f0cd5571209fb132117fdcc') in 0.031724 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/LSW/sleeves.asset
+  artifactKey: Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves.asset using Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db62c0399fdcf767e9587c8c4701d8bd') in 0.012306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LSW/mask.asset
+  artifactKey: Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/mask.asset using Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97f841f3c8b0f7502426737a7c2aebb') in 0.016772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.096993 seconds.
+  path: Assets/LSW/Clothes outline sprites.png
+  artifactKey: Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Clothes outline sprites.png using Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7f00186c98439da41fe74eb45fc1a6') in 0.100182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LSW/pants.asset
+  artifactKey: Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/pants.asset using Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b092ff8b84975c09ad41f486b4f7953') in 0.006740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LSW/scarf.asset
+  artifactKey: Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/scarf.asset using Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347d4625d40e08557be3b7783cbe597b') in 0.006493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
   path: Assets/LSW/socks.asset
   artifactKey: Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/socks.asset using Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234dfc27ca0de4933625d1f2a942dd6') in 0.008600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.967269 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1cc06ef9397154d857fa84a81eef4b') in 0.027712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.755699 seconds.
-  path: Assets/LSW/Rectangular Palette.prefab
-  artifactKey: Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/Rectangular Palette.prefab using Guid(c7bab45440bc78241b9427a837304793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1fbacb7bf15cc1be673660a8cdded3') in 0.034803 seconds 
+Start importing Assets/LSW/socks.asset using Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010edd2322f352e890a18dca59c1bdc') in 0.006327 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
+  path: Assets/LSW/hat.asset
+  artifactKey: Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/hat.asset using Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f8187ebcf11a6738f02efaeb3b8a2d') in 0.006624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LSW/shirt.asset
+  artifactKey: Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shirt.asset using Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44901c00ae2138a7a0684724b0735e8') in 0.006510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LSW/gloves.asset
+  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00345639fe343b945296123ed171a8d') in 0.007025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
   path: Assets/LSW/shoes.asset
   artifactKey: Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3724f6804b4cb10d4a2ea23140137c3c') in 0.008703 seconds 
+Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f74e213b60b37138e976b748134bb1') in 0.007416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LSW/sleeves 2.asset
+  artifactKey: Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves 2.asset using Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb0c58281802c59cd53335fb31c8a6e') in 0.006658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LSW/sleeves.asset
+  artifactKey: Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves.asset using Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726fb44742ea6692d7f32d37391713ad') in 0.006431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LSW/mask.asset
+  artifactKey: Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/mask.asset using Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfebca7562b241b109f8895a6dae689') in 0.006297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.071119 seconds.
+  path: Assets/LSW/Clothes outline sprites.png
+  artifactKey: Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Clothes outline sprites.png using Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a704b4ec53caf46b61cf104247ef3c2b') in 0.092913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LSW/pants.asset
+  artifactKey: Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/pants.asset using Guid(3b3313c3a0c96d04988dadd05caed3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2738c8d34dd7c876b9638ea53a2682dc') in 0.007029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LSW/scarf.asset
+  artifactKey: Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/scarf.asset using Guid(627b2e6e9b15db24b9d7312e2bf15872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69df7ff6d0c7dc1b6971449cf014d607') in 0.005833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LSW/socks.asset
+  artifactKey: Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/socks.asset using Guid(4d2ae6fe5d1ff814e9b0681f7181a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c4d60ceee1565a54adcab0629e0bb5') in 0.006789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LSW/hat.asset
+  artifactKey: Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/hat.asset using Guid(bb7a8a319dd041b4dbb302c933adad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f6fb8e597c5659cfdb55458e4ca6c7') in 0.006456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LSW/shirt.asset
+  artifactKey: Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shirt.asset using Guid(1d329d236b8d8e84cb8a0eb80bb2d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd1ce6835cd399848353922e12844a3') in 0.007862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LSW/gloves.asset
+  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2140a1544deabb1599858efb7445bbe4') in 0.006196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LSW/shoes.asset
+  artifactKey: Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b95169bd7e6c203b22bd1467b5572c') in 0.006109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LSW/sleeves 2.asset
+  artifactKey: Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves 2.asset using Guid(af9bb87988b76d94887a3ee047904fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1537e774630f446e108d8a372c728b2d') in 0.007374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LSW/sleeves.asset
+  artifactKey: Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/sleeves.asset using Guid(555d8e417f4812447ae8579375e6ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cd2cfc0f281f1b4511ae0b240af440') in 0.006497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LSW/mask.asset
+  artifactKey: Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/mask.asset using Guid(6adbf128e0b38954bb994cce9460af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de49155f78ee5b4d35952b6cd56214') in 0.006836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 376.629983 seconds.
+  path: Assets/LSW/gloves.asset
+  artifactKey: Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/gloves.asset using Guid(13875d740e94d914385e59022e6365c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26653b7bba0996d6b651fd8fc464e7ec') in 0.010678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LSW/shoes.asset
+  artifactKey: Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/shoes.asset using Guid(f4f9e4c7090bb014cbcf6bec3ec548c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b0ed318874b44b8c4f53dda381233f') in 0.009687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.128468 seconds.
+  path: Assets/LSW/Floor Rule Tile 1.asset
+  artifactKey: Guid(fa875361511c1694c9980d9668ba7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Floor Rule Tile 1.asset using Guid(fa875361511c1694c9980d9668ba7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ef8df3d77cbb1fec1c8f527366353') in 0.010455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.479651 seconds.
+  path: Assets/LSW/Wall Rule Tile.asset
+  artifactKey: Guid(fa875361511c1694c9980d9668ba7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Wall Rule Tile.asset using Guid(fa875361511c1694c9980d9668ba7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b381829cf1ca3911970e3e804167a05f') in 0.009937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.402819 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b239cbad0dd2163c3f239106449382f') in 0.006597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.539819 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818193850a4faf72456609a4716f8888') in 0.002199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.066125 seconds.
+  path: Assets/LSW/Tile Palettes
+  artifactKey: Guid(5a83827d6c1f3f648baea4f39b9fef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Tile Palettes using Guid(5a83827d6c1f3f648baea4f39b9fef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d09e85190c97febc9496bccf7e7d4a') in 0.005114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.173844 seconds.
+  path: Assets/LSW
+  artifactKey: Guid(fb944d22afa2f9049bcd07c1f54ca9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW using Guid(fb944d22afa2f9049bcd07c1f54ca9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a9e8910a5cd2967fceba91815deed') in 0.004511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.330833 seconds.
+  path: Assets/LSW/Clothes outline sprites.png
+  artifactKey: Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Clothes outline sprites.png using Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c674b882be1a04dc3129bc4aa3e06ea') in 0.105929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.803787 seconds.
+  path: Assets/LSW/Clothes outline sprites.png
+  artifactKey: Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Clothes outline sprites.png using Guid(aece933a6759bf44f9c7050b7b81a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f7fa3426fe528e364f557b22ea466') in 0.090542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.283548 seconds.
+  path: Assets/LSW/Humanoid.asset
+  artifactKey: Guid(71f3a846b37e88241b04b88849537f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Humanoid.asset using Guid(71f3a846b37e88241b04b88849537f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba7120dc981c793404a3f079ffa1f8') in 0.008405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439624 seconds.
+  path: Assets/LSW/Humanoid.png
+  artifactKey: Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Humanoid.png using Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26af7eb39ab87deb63722908f933efc') in 0.263172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.275022 seconds.
+  path: Assets/LSW/humanoid.png
+  artifactKey: Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/humanoid.png using Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750407b12a6832da934050edf48da021') in 0.016394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.646289 seconds.
+  path: Assets/LSW/humanoid.png
+  artifactKey: Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/humanoid.png using Guid(ac645e837e85b0e4b81dc6c6053ec073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9811a8f68c8db2e12b4556758f859016') in 0.015457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.707886 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5965fc70e62031ba920365acfb1b6b4') in 0.002226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.495967 seconds.
+  path: Assets/LSW/Floor Rule Tile 1.asset
+  artifactKey: Guid(cecb38d0248e1624e95b45058157356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Floor Rule Tile 1.asset using Guid(cecb38d0248e1624e95b45058157356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0186fce1b1ea0a89e68148177b3e45') in 0.009067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.270617 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e726939ddebf0c99ce89cbdfd466703') in 0.002270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.621180 seconds.
+  path: Assets/LSW/Floor Rule Tile 2.asset
+  artifactKey: Guid(f0fc715f7caf64e4db8387ac80c35034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Floor Rule Tile 2.asset using Guid(f0fc715f7caf64e4db8387ac80c35034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af7a5799852f45c43fb2cd7fd5ab4b7') in 0.011220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.712908 seconds.
+  path: Assets/LSW/Ceiling Rule Tile.asset
+  artifactKey: Guid(f0fc715f7caf64e4db8387ac80c35034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LSW/Ceiling Rule Tile.asset using Guid(f0fc715f7caf64e4db8387ac80c35034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781fff1d0cf373defc0719214750b651') in 0.009887 seconds 

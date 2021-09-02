@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 3519813893
+    locked: 0
+  - name: Wall
+    uniqueID: 3781334261
+    locked: 0
+  - name: clothes
+    uniqueID: 2141224021
+    locked: 0
+  - name: Ceiling
+    uniqueID: 2720764755
+    locked: 0
+  - name: humanoids
+    uniqueID: 3682090287
+    locked: 0

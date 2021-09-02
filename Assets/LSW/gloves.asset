@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: gloves
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 2045323480, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Transform:
     e00: 1
     e01: 0
