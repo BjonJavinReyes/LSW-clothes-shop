@@ -2,7 +2,10 @@ using System.Text;
 
 namespace LSW
 {
-	public struct ItemTypeIDToItemTypeInitialName
+
+	[System.Serializable]
+	public struct DataDefinition_ItemTypeIDToItemTypeInitialName
+
 	{
 		public int ID, ItemTypeInitialNameID;
 	}

@@ -1,11 +1,9 @@
 using System.Text;
 
-namespace LSW
-{
-	public struct BodyPartInitialName
-	{
-		public int ID;
-		public int LanguageID;
-		public StringBuilder Name;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_BodyPartInitialName { public int ID; 
+		public int PlaceHolderTextID;
+		
 	}
 }

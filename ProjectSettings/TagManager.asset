@@ -56,3 +56,6 @@ TagManager:
   - name: humanoids
     uniqueID: 3682090287
     locked: 0
+  - name: dialogues
+    uniqueID: 169621689
+    locked: 0

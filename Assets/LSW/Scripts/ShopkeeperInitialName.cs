@@ -2,10 +2,13 @@ using System.Text;
 
 namespace LSW
 {
-	public struct ShopkeeperInitialName
+
+	[System.Serializable]
+	public struct DataDefinition_ShopkeeperInitialName
+
 	{
 		public int ID;
-		public int LanguageID;
-		public StringBuilder Name;
+		public int PlaceHolderTextID;
+
 	}
 }

@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct DialogueID
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_DialogueID
+	
+		{ public int ID; 
 	}
 }

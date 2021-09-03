@@ -1,10 +1,10 @@
 using System;
 
-namespace LSW
-{
-	public struct EquipActionIDToDate
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_EquipActionIDToDate
+	
+		{ public int ID; 
 		public DateTime DateTimeInstance;
 	}
 }

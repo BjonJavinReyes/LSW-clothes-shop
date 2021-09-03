@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct BodyPartID
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_BodyPartID
+	
+		{ public int ID; 
 	}
 }

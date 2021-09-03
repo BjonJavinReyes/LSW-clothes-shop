@@ -1,8 +1,8 @@
-namespace LSW
-{
-	public struct DiscountIDToDiscountInPercent
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_DiscountIDToDiscountInPercent
+	
+		{ public int ID; 
 		public int DiscountInPercentID;
 	}
 }

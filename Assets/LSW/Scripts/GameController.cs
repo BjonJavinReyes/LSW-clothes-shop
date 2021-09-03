@@ -1,12 +1,12 @@
 using UnityEngine;
 
-namespace LSW
-{
-	public partial class GameController : ScriptableObject
-	{
+namespace LSW{
+
+	[System.Serializable] public partial class GameController : ScriptableObject {
+	
 		GameController Instance;
-		GameController()
-		{
+		GameController() {
+		
 			Instance = this;
 		}
 	}

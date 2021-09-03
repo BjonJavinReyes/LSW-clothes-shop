@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct PriceIDToPriceInDecimal
-	{
-		public int ID, PriceInDecimalID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_PriceIDToPriceInDecimal
+	
+		{ public int ID, PriceInDecimalID;
 	}
 }

@@ -1,7 +1,10 @@
 namespace LSW
 {
-	public struct ItemIDToItemTypeID
+
+	[System.Serializable]
+	public struct DataDefinition_ItemIDToItemTypeID
 	{
+
 		public int ID, ItemTypeID;
 	}
 }

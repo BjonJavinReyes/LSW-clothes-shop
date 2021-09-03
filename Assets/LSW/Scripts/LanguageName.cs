@@ -1,11 +1,11 @@
 using System.Text;
 
-namespace LSW
-{
-	public struct LanguageName
-	{
-		public int ID;
-		public int LanguageID;
-		public StringBuilder Name;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_LanguageName
+	
+		{ public int ID; 
+		public StringBuilder LanguageName;
+		
 	}
 }

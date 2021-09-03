@@ -1,11 +1,11 @@
 using System.Text;
 
-namespace LSW
-{
-	public struct DialogueInitialText
-	{
-		public int ID;
-		public int LanguageID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_DialogueInitialText
+	
+		{ public int ID; 
+		public int PlaceHolderTextID;
 		public StringBuilder Text;
 	}
 }

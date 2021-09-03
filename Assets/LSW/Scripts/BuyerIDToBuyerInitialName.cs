@@ -1,8 +1,8 @@
-namespace LSW
-{
-	public struct BuyerIDToBuyerInitialName
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_BuyerIDToBuyerInitialName
+	
+		{ public int ID; 
 		public int BuyerInitialNameID;
 	}
 }

@@ -1,6 +1,8 @@
 namespace LSW
 {
-	public struct EquipActionIDToProductID
+
+	[System.Serializable]
+	public struct DataDefinition_EquipActionIDToProductID
 	{
 		public int ID, ProductID;
 	}

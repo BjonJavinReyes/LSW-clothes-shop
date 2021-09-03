@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410dcfc83fe8ac345811c72a5bfe162a, type: 3}
+  m_Name: Application References
+  m_EditorClassIdentifier: 
+  InstanceList_BuyerPicture: []
+  InstanceList_ItemPicture:
+  - ID: 0
+    Icon: {fileID: 2045323480, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: -709475093, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 697256285, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 97363606, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 383038184, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: -392607037, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 97363606, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: -1676709730, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 1480770842, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 993169434, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  - ID: 0
+    Icon: {fileID: 1450131900, guid: aece933a6759bf44f9c7050b7b81a8c7, type: 3}
+  InstanceList_SellerPicture: []
+  InstanceList_ShopkeeperPicture: []

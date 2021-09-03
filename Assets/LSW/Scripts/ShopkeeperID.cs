@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct ShopkeeperID
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_ShopkeeperID
+	
+		{ public int ID; 
 	}
 }

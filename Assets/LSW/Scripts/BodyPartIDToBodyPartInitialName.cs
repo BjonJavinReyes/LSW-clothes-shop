@@ -1,9 +1,9 @@
 using System.Text;
 
-namespace LSW
-{
-	public struct BodyPartIDToBodyPartInitialName
-	{
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_BodyPartIDToBodyPartInitialName {
+	
 		public int BodyPartID;
 		public int BodyPartInitialNameID;
 	}

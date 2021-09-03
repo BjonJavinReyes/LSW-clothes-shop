@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct EquipActionID
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_EquipActionID
+	
+		{ public int ID; 
 	}
 }

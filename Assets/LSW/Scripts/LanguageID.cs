@@ -1,7 +1,7 @@
-namespace LSW
-{
-	public struct LanguageID
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_LanguageID
+	
+		{ public int ID; 
 	}
 }

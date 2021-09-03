@@ -1,8 +1,8 @@
-namespace LSW
-{
-	public struct DiscountIDToDiscountInDecimal
-	{
-		public int ID;
+namespace LSW{
+
+	[System.Serializable] public struct DataDefinition_DiscountIDToDiscountInDecimal
+	
+		{ public int ID; 
 		public int DiscountInDecimalID;
 	}
 }

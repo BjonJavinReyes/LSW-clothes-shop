@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace LSW
-{
-	public partial class Functions:ScriptableObject
-	{
+namespace LSW{
+	[CreateAssetMenu(menuName = "LSW/Functions", fileName = "Functions")]
+	[System.Serializable] public partial class Functions:ScriptableObject {
+	
 		Functions Instance;
-		Functions() {
+		Functions() { 
 			Instance = this;
 		}
 	}
