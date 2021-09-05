@@ -5,6 +5,6 @@ namespace LSW
 	public struct DataDefinition_ItemIDToItemTypeID
 	{
 
-		public int ID, ItemTypeID;
+		public System.Int64  ID, ItemTypeID;
 	}
 }

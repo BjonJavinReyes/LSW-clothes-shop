@@ -2,6 +2,6 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_EquipActionID
 	
-		{ public int ID; 
+		{ public System.Int64  ID; 
 	}
 }

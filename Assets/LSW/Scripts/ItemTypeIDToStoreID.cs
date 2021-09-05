@@ -4,6 +4,6 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_ItemTypeIDToStoreID
 	
-		{ public int ID, StoreID;
+		{ public System.Int64  ID, StoreID;
 	}
 }

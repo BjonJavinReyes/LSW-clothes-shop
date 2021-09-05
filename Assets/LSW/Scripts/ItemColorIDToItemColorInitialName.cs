@@ -7,6 +7,6 @@ namespace LSW
 	public struct DataDefinition_ItemColorIDToItemColorInitialName
 	{
 
-		public int ID, ItemColorInitialNameID;
+		public System.Int64  ID, ItemColorInitialNameID;
 	}
 }

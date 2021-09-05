@@ -7,6 +7,6 @@ namespace LSW
 	public struct DataDefinition_ItemSizeIDToItemSizeInitialName
 
 	{
-		public int ID, ItemTypeInitialNameID;
+		public System.Int64  ID, ItemTypeInitialNameID;
 	}
 }

@@ -9,6 +9,6 @@ namespace LSW
 	{
 
 		public Vector2 Size;
-		public StringBuilder SizeLabel;
+		public Unity.Collections.FixedString128Bytes SizeLabel;
 	}
 }

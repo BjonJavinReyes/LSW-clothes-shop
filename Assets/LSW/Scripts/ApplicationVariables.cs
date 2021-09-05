@@ -1,108 +1,118 @@
 using System.Collections.Generic;
+using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
 
 namespace LSW
 {
+	[BurstCompile]
 	[CreateAssetMenu(menuName = "LSW/Application Variables", fileName = "Application Variables")]
 	[System.Serializable]
 	public partial class ApplicationVariables : ScriptableObject
 	{
 
-		ApplicationVariables Instance;
+		public static ApplicationVariables Instance;
 		ApplicationVariables()
 		{
 
 			Instance = this;
 		}
+		
+		public System.Int64  BuyerMeetsSellerDialogueID = 0;
+		[SerializeField] public NativeList<DataDefinition_AvatarID> InstanceCollections_AvatarID = new();
+		public NativeList<DataDefinition_AvatarIDToIP> InstanceCollections_AvatarIDToIP = new();
 
-		public List<DataDefinition_BodyPartID> InstanceList_BodyPartID = new List<DataDefinition_BodyPartID>();
-		public List<DataDefinition_Limits> InstanceList_Limits = new();
-		public List<DataDefinition_BodyPartIDToBodyPartInitialName> InstanceList_BodyPartIDToBodyPartInitialName = new();
-		public List<DataDefinition_BodyPartInitialName> InstanceList_BodyPartInitialName = new();
-		public List<DataDefinition_BuyerID> InstanceList_BuyerID = new();
-		public List<DataDefinition_BuyerIDToBuyerInitialName> InstanceList_BuyerIDToBuyerInitialName = new();
-		public List<DataDefinition_BuyerInitialName> InstanceList_BuyerInitialName = new();
+		public NativeList<DataDefinition_BodyPartID> InstanceCollections_BodyPartID = new();
+		public NativeList<DataDefinition_Limits> InstanceCollections_Limits = new();
+		public NativeList<DataDefinition_BodyPartIDToBodyPartInitialName> InstanceCollections_BodyPartIDToBodyPartInitialName = new();
+		public NativeList<DataDefinition_BodyPartInitialName> InstanceCollections_BodyPartInitialName = new();
+		public NativeList<DataDefinition_BuyerID> InstanceCollections_BuyerID = new();
+		public NativeList<DataDefinition_BuyerIDToBuyerInitialName> InstanceCollections_BuyerIDToBuyerInitialName = new();
+		public NativeList<DataDefinition_BuyerInitialName> InstanceCollections_BuyerInitialName = new();
 
-		public List<DataDefinition_DialogueID> InstanceList_DialogueID = new();
-		public List<DataDefinition_DialogueIDToDialogueIDOfResponse> InstanceList_DialogueIDToDialogueIDOfResponse = new();
-		public List<DataDefinition_DialogueIDToDialogueInitialText> InstanceList_DialogueIDToDialogueInitialText = new();
-		public List<DataDefinition_DialogueInitialText> InstanceList_DialogueInitialText = new();
-		public List<DataDefinition_DiscountID> InstanceList_DiscountID = new();
-		public List<DataDefinition_DiscountIDToDiscountInDecimal> InstanceList_DiscountIDToDiscountInDecimal = new();
-		public List<DataDefinition_DiscountIDToDiscountInPercent> InstanceList_DiscountIDToDiscountInPercent = new();
-		public List<DataDefinition_DiscountInDecimal> InstanceList_DiscountInDecimal = new();
-		public List<DataDefinition_DiscountInPercent> InstanceList_DiscountInPercent = new();
-		public List<DataDefinition_EquipActionID> InstanceList_EquipActionID = new();
-		public List<DataDefinition_EquipActionIDToBodyPartID> InstanceList_EquipActionIDToBodyPartID = new();
-		public List<DataDefinition_EquipActionIDToBuyerID> InstanceList_EquipActionIDToBuyerID = new();
-		public List<DataDefinition_EquipActionIDToDate> InstanceList_EquipActionIDToDate = new();
-		public List<DataDefinition_EquipActionIDToProductID> InstanceList_EquipActionIDToProductID = new();
+		public NativeList<DataDefinition_DialogueID> InstanceCollections_DialogueID = new();
+		
+		public NativeList<DataDefinition_DialogueIDToDialogueIDOfResponse> InstanceCollections_DialogueIDToDialogueIDOfResponse = new();
+		public NativeList<DataDefinition_DialogueIDToDialogueInitialText> InstanceCollections_DialogueIDToDialogueInitialText = new();
+		public NativeList<DataDefinition_DialogueInitialText> InstanceCollections_DialogueInitialText = new();
+		public NativeList<DataDefinition_DiscountID> InstanceCollections_DiscountID = new();
+		public NativeList<DataDefinition_DiscountIDToDiscountInDecimal> InstanceCollections_DiscountIDToDiscountInDecimal = new();
+		public NativeList<DataDefinition_DiscountIDToDiscountInPercent> InstanceCollections_DiscountIDToDiscountInPercent = new();
+		public NativeList<DataDefinition_DiscountInDecimal> InstanceCollections_DiscountInDecimal = new();
+		public NativeList<DataDefinition_DiscountInPercent> InstanceCollections_DiscountInPercent = new();
+		public NativeList<DataDefinition_EquipActionID> InstanceCollections_EquipActionID = new();
+		public NativeList<DataDefinition_EquipActionIDToBodyPartID> InstanceCollections_EquipActionIDToBodyPartID = new();
+		public NativeList<DataDefinition_EquipActionIDToBuyerID> InstanceCollections_EquipActionIDToBuyerID = new();
+		public NativeList<DataDefinition_EquipActionIDToDate> InstanceCollections_EquipActionIDToDate = new();
+		public NativeList<DataDefinition_EquipActionIDToProductID> InstanceCollections_EquipActionIDToProductID = new();
 
-		public List<DataDefinition_ItemColor> InstanceList_ItemColor = new();
-		public List<DataDefinition_ItemColorID> InstanceList_ItemColorID = new();
-		public List<DataDefinition_ItemColorIDToItemColor> InstanceList_ItemColorIDToItemColor = new();
-		public List<DataDefinition_ItemColorIDToItemColorInitialName> InstanceList_ItemColorIDToItemColorInitialName = new();
-		public List<DataDefinition_ItemColorInitialName> InstanceList_ItemColorInitialName = new();
-		public List<DataDefinition_ItemIcon> InstanceList_ItemIcon = new();
-		public List<DataDefinition_ItemID> InstanceList_ItemID = new();
-		public List<DataDefinition_ItemIDToItemIcon> InstanceList_ItemIDToItemIcon = new();
-		public List<DataDefinition_ItemIDToItemTypeID> InstanceList_ItemIDToItemTypeID = new();
-		public List<DataDefinition_ItemIDToPriceID> InstanceList_ItemIDToPriceID = new();
-		public List<DataDefinition_ItemIDToStock> InstanceList_ItemIDToStock = new();
+		public NativeList<DataDefinition_ItemColor> InstanceCollections_ItemColor = new();
+		public NativeList<DataDefinition_ItemColorID> InstanceCollections_ItemColorID = new();
+		public NativeList<DataDefinition_ItemColorIDToItemColor> InstanceCollections_ItemColorIDToItemColor = new();
+		public NativeList<DataDefinition_ItemColorIDToItemColorInitialName> InstanceCollections_ItemColorIDToItemColorInitialName = new();
+		public NativeList<DataDefinition_ItemColorInitialName> InstanceCollections_ItemColorInitialName = new();
 
-		public List<DataDefinition_ItemSize> InstanceList_ItemSize = new();
-		public List<DataDefinition_ItemSizeID> InstanceList_ItemSizeID = new();
-		public List<DataDefinition_ItemSizeIDToItemSize> InstanceList_ItemSizeIDToItemSize = new();
-		public List<DataDefinition_ItemSizeIDToItemSizeInitialName> InstanceList_ItemSizeIDToItemSizeInitialName = new();
-		public List<DataDefinition_ItemSizeInitialName> InstanceList_ItemSizeInitialName = new();
-		public List<DataDefinition_ItemTypeID> InstanceList_ItemTypeID = new();
-		public List<DataDefinition_ItemTypeIDToItemTypeInitialName> InstanceList_ItemTypeIDToItemTypeInitialName = new();
-		public List<DataDefinition_ItemTypeIDToItemXYZPositionID> InstanceList_ItemTypeIDToItemXYZPositionID = new();
-		public List<DataDefinition_ItemTypeIDToLocationID> InstanceList_ItemTypeIDToLocationID = new();
-		public List<DataDefinition_ItemTypeIDToStoreID> InstanceList_ItemTypeIDToStoreID = new();
-		public List<DataDefinition_ItemTypeInitialName> InstanceList_ItemTypeInitialName = new();
-		public List<DataDefinition_ItemXYZPosition> InstanceList_ItemXYZPosition = new();
-		public List<DataDefinition_LanguageID> InstanceList_LanguageID = new();
-		public List<DataDefinition_LanguageName> InstanceList_LanguageName = new();
-		public List<DataDefinition_LocationID> InstanceList_LocationID = new();
-		public List<DataDefinition_LocationName> InstanceList_LocationName = new();
+		public NativeList<DataDefinition_ItemID> InstanceCollections_ItemID = new();
+		public NativeList<DataDefinition_ItemIDToItemIcon> InstanceCollections_ItemIDToItemIcon = new();
+		public NativeList<DataDefinition_ItemIDToItemTypeID> InstanceCollections_ItemIDToItemTypeID = new();
+		public NativeList<DataDefinition_ItemIDToPriceID> InstanceCollections_ItemIDToPriceID = new();
+		public NativeList<DataDefinition_ItemIDToStock> InstanceCollections_ItemIDToStock = new();
 
-		public List<DataDefinition_PictureDirectionType> InstanceList_PictureDirectionType = new();
-		public List<DataDefinition_PictureIDToPictureDirectionTypeID> InstanceList_PictureIDToPictureDirectionTypeID = new();
-		public List<DataDefinition_PlaceHolderTextID> InstanceList_PlaceHolderTextID = new();
-		public List<DataDefinition_PlaceHolderTextIDToTextID> InstanceList_PlaceHolderTextIDToTextID = new();
-		public List<DataDefinition_PlaceHolderTextValues> InstanceList_PlaceHolderTextValues = new();
-		public List<DataDefinition_PriceID> InstanceList_PriceID = new();
-		public List<DataDefinition_PriceIDToPriceInDecimal> InstanceList_PriceIDToPriceInDecimal = new();
-		public List<DataDefinition_PriceInDecimal> InstanceList_PriceInDecimal = new();
-		public List<DataDefinition_SellerID> InstanceList_SellerID = new();
-		public List<DataDefinition_SellerIDToSellerInitialName> InstanceList_SellerIDToSellerInitialName = new();
-		public List<DataDefinition_SellerIDToStoreID> InstanceList_SellerIDToStoreID = new();
-		public List<DataDefinition_SellerInitialName> InstanceList_SellerInitialName = new();
+		public NativeList<DataDefinition_ItemSize> InstanceCollections_ItemSize = new();
+		public NativeList<DataDefinition_ItemSizeID> InstanceCollections_ItemSizeID = new();
+		public NativeList<DataDefinition_ItemSizeIDToItemSize> InstanceCollections_ItemSizeIDToItemSize = new();
+		public NativeList<DataDefinition_ItemSizeIDToItemSizeInitialName> InstanceCollections_ItemSizeIDToItemSizeInitialName = new();
+		public NativeList<DataDefinition_ItemSizeInitialName> InstanceCollections_ItemSizeInitialName = new();
+		public NativeList<DataDefinition_ItemTypeID> InstanceCollections_ItemTypeID = new();
+		public NativeList<DataDefinition_ItemTypeIDToItemTypeInitialName> InstanceCollections_ItemTypeIDToItemTypeInitialName = new();
+		public NativeList<DataDefinition_ItemTypeIDToItemXYZPositionID> InstanceCollections_ItemTypeIDToItemXYZPositionID = new();
+		public NativeList<DataDefinition_ItemTypeIDToLocationID> InstanceCollections_ItemTypeIDToLocationID = new();
+		public NativeList<DataDefinition_ItemTypeIDToStoreID> InstanceCollections_ItemTypeIDToStoreID = new();
+		public NativeList<DataDefinition_ItemTypeInitialName> InstanceCollections_ItemTypeInitialName = new();
+		public NativeList<DataDefinition_ItemXYZPosition> InstanceCollections_ItemXYZPosition = new();
+		public NativeList<DataDefinition_LanguageID> InstanceCollections_LanguageID = new();
+		public NativeList<DataDefinition_LanguageName> InstanceCollections_LanguageName = new();
+		public NativeList<DataDefinition_LocationID> InstanceCollections_LocationID = new();
+		public NativeList<DataDefinition_LocationName> InstanceCollections_LocationName = new();
 
-		public List<DataDefinition_ShopkeeperID> InstanceList_ShopkeeperID = new();
-		public List<DataDefinition_ShopkeeperIDToShopkeeperInitialName> InstanceList_ShopkeeperIDToShopkeeperInitialName = new();
-		public List<DataDefinition_ShopkeeperIDToStoreID> InstanceList_ShopkeeperIDToStoreID = new();
-		public List<DataDefinition_ShopkeeperInitialName> InstanceList_ShopkeeperInitialName = new();
+		public NativeList<DataDefinition_PictureDirectionType> InstanceCollections_PictureDirectionType = new();
+		public NativeList<DataDefinition_PictureIDToPictureDirectionTypeID> InstanceCollections_PictureIDToPictureDirectionTypeID = new();
+		public NativeList<DataDefinition_PlaceHolderTextID> InstanceCollections_PlaceHolderTextID = new();
+		public NativeList<DataDefinition_PlaceHolderTextIDToTextID> InstanceCollections_PlaceHolderTextIDToTextID = new();
+		public NativeList<DataDefinition_PlaceHolderTextValues> InstanceCollections_PlaceHolderTextValues = new();
+		public NativeList<DataDefinition_PriceID> InstanceCollections_PriceID = new();
+		public NativeList<DataDefinition_PriceIDToPriceInDecimal> InstanceCollections_PriceIDToPriceInDecimal = new();
+		public NativeList<DataDefinition_PriceInDecimal> InstanceCollections_PriceInDecimal = new();
+		public NativeList<DataDefinition_SellerID> InstanceCollections_SellerID = new();
+		public NativeList<DataDefinition_SellerIDToSellerInitialName> InstanceCollections_SellerIDToSellerInitialName = new();
+		public NativeList<DataDefinition_SellerIDToStoreID> InstanceCollections_SellerIDToStoreID = new();
+		public NativeList<DataDefinition_SellerInitialName> InstanceCollections_SellerInitialName = new();
 
-		public List<DataDefinition_StoreID> InstanceList_StoreID = new();
-		public List<DataDefinition_StoreIDToLocationID> InstanceList_StoreIDToLocationID = new();
-		public List<DataDefinition_StoreIDToStoreInitialName> InstanceList_StoreIDToStoreInitialName = new();
-		public List<DataDefinition_StoreInitialName> InstanceList_StoreInitialName = new();
-		public List<DataDefinition_TextID> InstanceList_TextID = new();
-		public List<DataDefinition_TextIDToLanguageID> InstanceList_TextIDToLanguageID = new();
-		public List<DataDefinition_TextValues> InstanceList_TextValues = new();
-		public List<DataDefinition_TransactionID> InstanceList_TransactionID = new();
-		public List<DataDefinition_TransactionIDToBuyerID> InstanceList_TransactionIDToBuyerID = new();
-		public List<DataDefinition_TransactionIDToDate> InstanceList_TransactionIDToDate = new();
-		public List<DataDefinition_TransactionIDToProductID> InstanceList_TransactionIDToProductID = new();
-		public List<DataDefinition_TransactionIDToSellerID> InstanceList_TransactionIDToSellerID = new();
+		public NativeList<DataDefinition_ShopkeeperID> InstanceCollections_ShopkeeperID = new();
+		public NativeList<DataDefinition_ShopkeeperIDToShopkeeperInitialName> InstanceCollections_ShopkeeperIDToShopkeeperInitialName = new();
+		public NativeList<DataDefinition_ShopkeeperIDToStoreID> InstanceCollections_ShopkeeperIDToStoreID = new();
+		public NativeList<DataDefinition_ShopkeeperInitialName> InstanceCollections_ShopkeeperInitialName = new();
 
-		public List<DataDefinition_TransactionResult> InstanceList_TransactionResult = new();
-		public List<DataDefinition_TransactionResultID> InstanceList_TransactionResultID = new();
-		public List<DataDefinition_TransactionIDToTransactionResultID> InstanceList_TransactionIDToTransactionResultID = new();
-		public List<DataDefinition_TransactionIDToItemQuantity> InstanceList_TransactionIDToItemQuantity = new();
+		public NativeList<DataDefinition_StoreID> InstanceCollections_StoreID = new();
+		public NativeList<DataDefinition_StoreIDToLocationID> InstanceCollections_StoreIDToLocationID = new();
+		public NativeList<DataDefinition_StoreIDToStoreInitialName> InstanceCollections_StoreIDToStoreInitialName = new();
+		public NativeList<DataDefinition_StoreInitialName> InstanceCollections_StoreInitialName = new();
+		public NativeList<DataDefinition_TextID> InstanceCollections_TextID = new();
+		public NativeList<DataDefinition_TextIDToLanguageID> InstanceCollections_TextIDToLanguageID = new();
+		public NativeList<DataDefinition_TextValues> InstanceCollections_TextValues = new();
+		public NativeList<DataDefinition_TransactionID> InstanceCollections_TransactionID = new();
+		public NativeList<DataDefinition_TransactionIDToBuyerID> InstanceCollections_TransactionIDToBuyerID = new();
+		public NativeList<DataDefinition_TransactionIDToDate> InstanceCollections_TransactionIDToDate = new();
+		public NativeList<DataDefinition_TransactionIDToProductID> InstanceCollections_TransactionIDToProductID = new();
+		public NativeList<DataDefinition_TransactionIDToSellerID> InstanceCollections_TransactionIDToSellerID = new();
+
+		public NativeList<DataDefinition_TransactionResult> InstanceCollections_TransactionResult = new();
+		public NativeList<DataDefinition_TransactionStatusID> InstanceCollections_TransactionResultID = new();
+		public NativeList<DataDefinition_TransactionIDToTransactionResultID> InstanceCollections_TransactionIDToTransactionResultID = new();
+		public NativeList<DataDefinition_TransactionIDToItemQuantity> InstanceCollections_TransactionIDToItemQuantity = new();
+
+		public NativeList<DataDefinition_BuyerIDToDialogueID> InstanceCollections_BuyerIDToDialogueID = new();
+		public NativeList<DataDefinition_SellerIDToDialogueID> InstanceCollections_SellerIDToDialogueID = new();
 
 	}
 }

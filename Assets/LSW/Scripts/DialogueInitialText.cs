@@ -1,11 +1,15 @@
 using System.Text;
+using Unity.Collections;
 
-namespace LSW{
+namespace LSW
+{
 
-	[System.Serializable] public struct DataDefinition_DialogueInitialText
-	
-		{ public int ID; 
-		public int PlaceHolderTextID;
-		public StringBuilder Text;
+	[System.Serializable]
+	public struct DataDefinition_DialogueInitialText
+
+	{
+		public System.Int64 ID;
+		public System.Int64 PlaceHolderTextID;
+		public FixedString128Bytes Text;
 	}
 }

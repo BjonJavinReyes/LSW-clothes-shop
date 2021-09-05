@@ -5,7 +5,7 @@ namespace LSW
 	public struct DataDefinition_PictureDirectionType
 
 	{
-		public int ID;
+		public System.Int64  ID;
 		public enum Direction
 		{
 			Forward,

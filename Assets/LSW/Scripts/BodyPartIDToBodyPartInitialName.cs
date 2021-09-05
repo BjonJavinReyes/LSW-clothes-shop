@@ -4,7 +4,7 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_BodyPartIDToBodyPartInitialName {
 	
-		public int BodyPartID;
-		public int BodyPartInitialNameID;
+		public System.Int64  BodyPartID;
+		public System.Int64  BodyPartInitialNameID;
 	}
 }

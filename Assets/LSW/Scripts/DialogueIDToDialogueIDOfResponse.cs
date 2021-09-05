@@ -2,7 +2,7 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_DialogueIDToDialogueIDOfResponse
 	
-		{ public int ID; 
-		public int DialogueIDOfResponse;
+		{ public System.Int64  ID; 
+		public System.Int64  DialogueIDOfResponse;
 	}
 }

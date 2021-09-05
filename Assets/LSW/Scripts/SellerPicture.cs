@@ -4,7 +4,7 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_SellerPicture
 	
-		{ public int ID; 
+		{ public System.Int64  ID; 
 		public Sprite Picture;
 	}
 }

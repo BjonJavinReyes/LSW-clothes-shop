@@ -5,6 +5,6 @@ namespace LSW
 	public struct DataDefinition_EquipActionIDToBodyPartID
 
 	{
-		public int ID, BodyPartID;
+		public System.Int64  ID, BodyPartID;
 	}
 }

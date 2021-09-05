@@ -4,8 +4,8 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_PlaceHolderTextValues 
 	
-		{ public int ID; 
-		public StringBuilder PlaceHolderText;
+		{ public System.Int64  ID; 
+		public Unity.Collections.FixedString128Bytes PlaceHolderText;
 		
 	}
 }

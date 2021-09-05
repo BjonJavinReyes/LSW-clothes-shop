@@ -1,4 +1,5 @@
 using System.Text;
+using Unity.Collections;
 
 namespace LSW
 {
@@ -6,10 +7,10 @@ namespace LSW
 	[System.Serializable]
 	public struct DataDefinition_Limits
 	{
-		public int ID;
-		public double Minimum;
-		public double Maximum;
-		public StringBuilder DataDefinition_Name;
-		public StringBuilder DataDefinition_FieldName;
+		public System.Int64  ID;
+		public System.Double Minimum;
+		public System.Double Maximum;
+		public FixedString128Bytes DataDefinition_Name;
+		public FixedString128Bytes DataDefinition_FieldName;
 	}
 }

@@ -4,8 +4,9 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_TransactionResult
 
-	{ public int ID;
-		public enum TransactionResult {
+	{ public System.Int64  ID;
+		public enum TransactionStatus {
+			Talk,
 			Bought,
 			Refunded,
 			Swapped,

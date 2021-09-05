@@ -7,8 +7,8 @@ namespace LSW
 	public struct DataDefinition_ItemTypeInitialName
 
 	{
-		public int ID;
-		public int PlaceHolderTextID;
+		public System.Int64  ID;
+		public System.Int64  PlaceHolderTextID;
 
 	}
 }

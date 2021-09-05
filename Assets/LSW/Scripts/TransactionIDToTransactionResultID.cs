@@ -7,7 +7,7 @@ namespace LSW
 	public struct DataDefinition_TransactionIDToTransactionResultID
 
 	{
-		public int ID;
-		public int TransactionResultID;
+		public System.Int64  ID;
+		public System.Int64  TransactionResultID;
 	}
 }

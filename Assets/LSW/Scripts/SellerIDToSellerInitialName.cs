@@ -5,6 +5,6 @@ namespace LSW
 	public struct DataDefinition_SellerIDToSellerInitialName
 
 	{
-		public int ID, InitialNameID;
+		public System.Int64  ID, InitialNameID;
 	}
 }

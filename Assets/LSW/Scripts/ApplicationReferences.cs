@@ -15,6 +15,7 @@ namespace LSW{
 		public List<DataDefinition_ItemPicture> InstanceList_ItemPicture = new List<DataDefinition_ItemPicture>();
 		public List<DataDefinition_SellerPicture> InstanceList_SellerPicture = new List<DataDefinition_SellerPicture>();
 		public List<DataDefinition_ShopkeeperPicture> InstanceList_ShopkeeperPicture = new List<DataDefinition_ShopkeeperPicture>();
-
+		public List<DataDefinition_DialogueUI> InstanceList_DialogueUI = new();
+		public List<DataDefinition_ItemIcon> InstanceList_ItemIcon = new();
 	}
 }

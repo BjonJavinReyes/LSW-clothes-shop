@@ -5,6 +5,6 @@ namespace LSW
 	public struct DataDefinition_ItemIDToPriceID
 
 	{
-		public int ID, PriceID;
+		public System.Int64  ID, PriceID;
 	}
 }

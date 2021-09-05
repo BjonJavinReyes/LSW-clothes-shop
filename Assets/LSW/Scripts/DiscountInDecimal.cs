@@ -2,7 +2,7 @@ namespace LSW{
 
 	[System.Serializable] public struct DataDefinition_DiscountInDecimal
 	
-		{ public int ID;  
+		{ public System.Int64  ID;  
 		public double Value, Mininum, Maximum;
 	}
 }
